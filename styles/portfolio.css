@@ -6,15 +6,13 @@
 
 body {
   font-family: var(--main-font);
-  margin-left: 90px;
-  margin-right: 108px;
 }
 
 .atf {
   background: linear-gradient(white, 90%, #a0d5d3, #7ac4c1);
-  margin-top: 60px;
-  padding-left: 90px;
-  padding-right: 90px;
+  margin-top: 50px;
+  padding-left: 80px;
+  padding-right: 130px;
 }
 
 .btf {
@@ -24,6 +22,8 @@ body {
 .footer {
   text-align: center;
   background-color: var(--main-branding-color);
+  margin-right: -12px;
+  margin-left: -12px;
 }
 
 .socials {
@@ -50,6 +50,8 @@ button {
   border-color: var(--main-branding-color) !important;
   padding-right: 15px !important;
   padding-left: 15px !important;
+  padding-bottom: 3px !important;
+  padding-top: 3px !important;
   color: black !important;
   font-weight: 700 !important;
 }
@@ -114,10 +116,26 @@ h5 {
 }
 .littleboutheader {
   font-size: 30px;
-  margin-top: 50px;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .littlebout {
-  font-size: 15px;
+  font-size: 17px;
+}
+
+.aboutsection {
+  margin: 60px auto;
+  margin-right: 140px;
+}
+
+nav {
+  color: black !important;
+  font-weight: 800;
+  margin-left: 550px;
+  margin-right: 408px;
+}
+
+.container {
+  width: 900px;
 }
