@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>About me</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,13 +14,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Nunito&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <div class="container contact">
+    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -48,7 +48,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" href="about.html">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="work.html">Portfolio</a>
@@ -60,65 +60,90 @@
           </div>
         </div>
       </nav>
-      <div class="about d-block pt-5 pb-3">🤙CONTACT ME</div>
-      <div class="mt-5 mb-5">
-        <div class="row">
-          <div class="col-md-6 mt-5 mb-5">
-            <img src="images/message.png" alt="" width="400" />
+      <div class="about d-block pt-5 pb-3">A LITTLE ABOUT ME</div>
+      <!-- Above the fold -->
+
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            class="img-fluid img-width photo"
+            src="/images/about.jpg"
+            alt="Farrah's Picture"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2>More about me?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            pulvinar nisl maximus, dignissim odio id, vehicula velit. Integer
+            tincidunt nulla ullamcorper, sodales sem et, commodo arcu. Mauris
+            quis malesuada ante. Quisque eu elementum nibh. Curabitur vel
+            dignissim turpis, eu sodales purus. Curabitur a turpis hendrerit,
+            feugiat tellus id, porttitor nisi. Morbi vitae finibus eros.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="text-align">Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Softwares:</h3>
+          <ul>
+            <li>Lever</li>
+            <li>Gusto</li>
+            <li>Sapling</li>
+            <li>Zendesk</li>
+            <li>WordPress</li>
+            <li>Shopify</li>
+            <li>Notion</li>
+            <li>Order Desk</li>
+            <li>Retool</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Tools</h3>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/html-5.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-3">
+              <img src="images/css.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-3">
+              <img src="images/javascript.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-3">
+              <img src="images/bootstrap.png" alt="" width="40px" />
+            </div>
           </div>
-          <div class="col-md-6 mt-5">
-            <h3 class="intouch">LET'S TALK</h3>
-            <p>Want to get in contact with me? Here are a few options...</p>
-            <div class="row">
-              <div class="col-md-4 mt-3">
-                <a href="tel:+18326783818">
-                  <img src="images/phone-call.png" alt="" width="90"
-                /></a>
-              </div>
-              <div class="col-md-4 mt-3">
-                <a href="mailto:farrahyounes@outlook.com">
-                  <img src="images/email (1).png" alt="" width="90"
-                /></a>
-              </div>
-              <div class="col-md-4 mt-3">
-                <img src="images/linkedin (1).png" alt="" width="90" />
-              </div>
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/ajax.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-3">
+              <img src="images/responsive.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-3">
+              <img src="images/github (1).png" alt="" width="40px" />
+            </div>
+            <div class="col-md-3">
+              <img src="images/vs.png" alt="" width="40px" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/flexbox.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-4">
+              <img src="images/netlify.png" alt="" width="40px" />
+            </div>
+            <div class="col-md-4">
+              <img src="images/api.png" alt="" width="40px" />
             </div>
           </div>
         </div>
       </div>
-      <div class="contactform">
-        <form
-          name="contact"
-          action="https://formspree.io/f/mpznzqlq"
-          method="POST"
-          id="my-form"
-        >
-          <div class="form-group">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="First Name" required />
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="Last Name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="Email" required />
-          </div>
-
-          <div class="form-group form-group-full">
-            <label for="message">Message</label>
-            <textarea
-              name="Message"
-              id="message"
-              cols="30"
-              rows="10"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-secondary">Send</button>
-        </form>
-      </div>
-
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
