@@ -18,6 +18,12 @@ body {
 .about {
   background: linear-gradient(white, 50%, #a0d5d3, #7ac4c1);
 }
+.portfolio {
+  background: linear-gradient(white, 20%, #a0d5d3, #7ac4c1);
+}
+.contact {
+  background: linear-gradient(white, 20%, #a0d5d3, #7ac4c1);
+}
 
 .btf {
   background-color: white;
@@ -133,15 +139,12 @@ h5 {
   margin-right: 140px;
 }
 
-/* nav {
-  color: black !important;
-  font-weight: 800;
-  margin-left: 350px;
-  margin-right: 220px;
-} */
-
 .container {
-  width: 900px;
+  max-width: 1100px;
   border: solid;
   border-color: var(--main-branding-color);
+}
+
+h2 {
+  text-align: center;
 }
