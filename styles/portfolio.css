@@ -142,4 +142,6 @@ h5 {
 
 .container {
   width: 900px;
+  border: solid;
+  border-color: var(--main-branding-color);
 }
