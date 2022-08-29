@@ -206,3 +206,8 @@ h5 {
 .iconcolor {
   color: var(--secondary-branding-color);
 }
+
+.cairo {
+  position: relative;
+  bottom: 4px;
+}
