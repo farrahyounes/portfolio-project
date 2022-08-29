@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <meta
+      name="description"
+      content="Farrah Younes. A passionate coder based in Egypt"
+    />
+    <script src="https://kit.fontawesome.com/1639590888.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,13 +22,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+
+    <title>Farrah Younes - Contact me</title>
   </head>
   <body>
-    <div class="container contact">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="" width="80px" />
+            <img src="images/logo.png" alt="Logo" width="80px" />
           </a>
           <button
             class="navbar-toggler"
@@ -60,85 +66,97 @@
           </div>
         </div>
       </nav>
-      <div class="about d-block pt-5 pb-3">🤙CONTACT ME</div>
-      <div class="mt-5 mb-5">
-        <div class="row">
-          <div class="col-md-6 mt-5 mb-5">
-            <img src="images/message.png" alt="" width="400" />
-          </div>
-          <div class="col-md-6 mt-5">
-            <h3 class="intouch">LET'S TALK</h3>
-            <p>Want to get in contact with me? Here are a few options...</p>
-            <div class="row">
-              <div class="col-md-4 mt-3">
-                <a href="tel:+18326783818">
-                  <img src="images/phone-call.png" alt="" width="90"
-                /></a>
-              </div>
-              <div class="col-md-4 mt-3">
-                <a href="mailto:farrahyounes@outlook.com">
-                  <img src="images/email (1).png" alt="" width="90"
-                /></a>
-              </div>
-              <div class="col-md-4 mt-3">
-                <img src="images/linkedin (1).png" alt="" width="90" />
-              </div>
+      <!-- /Above thf old -->
+
+        <div class="row atf about">
+        <div class="about d-block pt-5 pb-5">🤙CONTACT ME</div>
+        </div>
+      <div class="row">
+        <div class="col-md-6 mt-5 mb-5">
+          <img src="images/message.png" alt="Message Icon" width="400" />
+        </div>
+        <div class="col-md-6 mt-5">
+          <h3 class="intouch">LET'S TALK</h3>
+          <p>Want to get in contact with me? Here are a few options...</p>
+          <div class="row">
+            <div class="col-md-4 mt-3">
+              <a href="tel:+18326783818">
+                <img src="images/phone-call.png" alt="Phone Icon" width="90"
+              /></a>
+            </div>
+            <div class="col-md-4 mt-3">
+              <a href="mailto:farrahyounes@outlook.com">
+                <img src="images/email (1).png" alt="Email Icon" width="90"
+              /></a>
+            </div>
+            <div class="col-md-4 mt-3">
+              <img src="images/linkedin (1).png" alt="LinkedIn Icon" width="90" />
             </div>
           </div>
         </div>
-      </div>
-      <div class="contactform">
-        <form
-          name="contact"
-          action="https://formspree.io/f/mpznzqlq"
-          method="POST"
-          id="my-form"
-        >
-          <div class="form-group">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="First Name" required />
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="Last Name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="Email" required />
-          </div>
 
-          <div class="form-group form-group-full">
-            <label for="message">Message</label>
-            <textarea
-              name="Message"
-              id="message"
-              cols="30"
-              rows="10"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-secondary">Send</button>
-        </form>
-      </div>
+        <!-- contact form -->
 
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"
-      ></script>
-    </div>
+
+ <!-- <div class="row contactform justify-content-center">
+            <div class="col-md-12">
+              
+              <h3 class="thin-heading mb-4">Message Me</h3>
+
+              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="2" placeholder="Write your message"></textarea>
+                  </div>
+                </div>  
+                <div class="row">
+                  <div class="col-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+
+               -->
+
+            </div>
+          </div>
+        </div>
+
+
+        
+      </div>
+     </div>
+      <!-- last fold -->
+      
     <p class="codedby">
       This project was coded by Farrah Younes, designed by Loujina Mounir, and
       is open-sourced on Github
     </p>
     <div class="footer">
       <a href="mailto:farrahyounes@outlook.com">
-        <img src="images/email.png" alt="" width="60px" class="socials" />
+        <img src="images/email.png" alt="Email icon" width="60px" class="socials" />
       </a>
+
       <a href="https://github.com/farrahyounes" target="_blank">
-        <img src="images/github.png" alt="" width="60px" class="socials"
+        <img src="images/github.png" alt="Github Icon" width="60px" class="socials"
       /></a>
+
       <a href="https://www.linkedin.com/in/farrahyounes/" target="_blank">
-        <img src="images/linkedin.png" alt="" width="60px" class="socials" />
+        <img src="images/linkedin.png" alt="LinkedIn Icon" width="60px" class="socials" />
       </a>
-    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

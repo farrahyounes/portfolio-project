@@ -66,8 +66,21 @@ button {
 }
 
 button:hover {
+  color: white;
   background-color: var(--secondary-branding-color) !important;
 }
+
+a:hover {
+  color: white;
+}
+
+hr {
+  color: var(--main-branding-color);
+}
+
+/* .workbackground {
+  background: linear-gradient(white, 50%, #a0d5d3, #7ac4c1);
+} */
 
 .hire,
 .project {
@@ -188,4 +201,8 @@ h5 {
 }
 .contactform {
   background-color: var(--secondary-branding-color);
+}
+
+.iconcolor {
+  color: var(--secondary-branding-color);
 }
