@@ -76,6 +76,9 @@ a:hover {
 
 hr {
   color: var(--main-branding-color);
+  border: none;
+  height: 10px;
+  background-color: var(--main-branding-color);
 }
 
 /* .workbackground {
